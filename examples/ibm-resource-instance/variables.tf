@@ -1,5 +1,5 @@
 variable "service_name" {
-  default = "myservice"
+  default = "myservice-www"
 }
 
 variable "service_type" {
