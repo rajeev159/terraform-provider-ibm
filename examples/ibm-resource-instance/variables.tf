@@ -11,7 +11,7 @@ variable "plan" {
 }
 
 variable "location" {
-  default = "global"
+  default = "us-south"
 }
 
 variable "resource_group" {
