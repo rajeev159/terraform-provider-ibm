@@ -1,0 +1,34 @@
+{
+    "name": "workspace-poc-1",
+    "type": [
+        "terraform_v0.12"
+    ],
+    "description": "Creating to test poc",
+    "tags": [],
+    "template_repo": {
+        "url": "https://github.com/rajeev159/terraform-provider-ibm/tree/master/examples/ibm-resource-instance"
+    },
+    "template_data": [
+        {
+            "folder": ".",
+            "type": "0.12",
+            "env_values": [
+                {
+                    "VAR1": "val1"
+                },
+                {
+                    "VAR2": "val2"
+                }
+            ],
+            "variablestore": [
+                {
+                    "name": "region",
+                    "value": "us-south",
+                    "type": "string",
+                    "secure": true,
+                    "description": "Testing value"
+                }
+            ]
+        }
+    ]
+}
