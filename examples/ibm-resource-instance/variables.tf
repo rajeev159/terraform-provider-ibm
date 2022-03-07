@@ -6,7 +6,7 @@ variable "service_type" {
   default = "cloud-object-storage"
 }
 
-variable "plan" {
+variable "plan_type" {
   default = "standard"
 }
 
