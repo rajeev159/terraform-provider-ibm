@@ -13,18 +13,38 @@
         {
             "folder": ".",
             "type": "terraform_v0.12",
-            "env_values": [
+            "variablestore": [
                 {
-                    "VAR1": "val1"
+                    "name": "service_name",
+                    "value": "myservice-poc-11",
+                    "type": "string",
+                    "secure": true,
+                    "description": "Testing value"
                 },
                 {
-                    "VAR2": "val2"
-                }
-            ],
-            "variablestore": [
+                    "name": "service_type",
+                    "value": "cloud-object-storage",
+                    "type": "string",
+                    "secure": true,
+                    "description": "Testing value"
+                },
+                {
+                    "name": "plan_type",
+                    "value": "standard",
+                    "type": "string",
+                    "secure": true,
+                    "description": "Testing value"
+                },
                 {
                     "name": "location",
                     "value": "us-south",
+                    "type": "string",
+                    "secure": true,
+                    "description": "Testing value"
+                },
+                {
+                    "name": "resource_group",
+                    "value": "Default",
                     "type": "string",
                     "secure": true,
                     "description": "Testing value"
