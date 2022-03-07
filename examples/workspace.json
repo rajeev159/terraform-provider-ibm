@@ -4,7 +4,7 @@
         "terraform_v0.12"
     ],
     "location": "us-south",
-    "description": "Creating to test poc1",
+    "description": "Creating to test poc2",
     "tags": [],
     "template_repo": {
         "url": "https://github.com/rajeev159/terraform-provider-ibm/tree/master/examples/ibm-resource-instance"
