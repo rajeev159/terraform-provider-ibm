@@ -1,5 +1,5 @@
 variable "service_name" {
-  default = "myservice-2"
+  default = "myservice-poc-11"
 }
 
 variable "service_type" {
@@ -7,7 +7,7 @@ variable "service_type" {
 }
 
 variable "plan" {
-  default = "lite"
+  default = "standard"
 }
 
 variable "location" {
@@ -15,21 +15,5 @@ variable "location" {
 }
 
 variable "resource_group" {
-  default = "default"
-}
-
-variable "bucket_name" {
-  default = "a-standard-bucket-at-ams-firewall"
-}
-
-variable "storage" {
-  default = "standard"
-}
-
-variable "region" {
-  default = "us"
-}
-
-variable "regional_loc" {
-  default = "us-south"
+  default = "Default"
 }
