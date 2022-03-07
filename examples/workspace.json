@@ -37,7 +37,7 @@
                 },
                 {
                     "name": "location",
-                    "value": "us-south",
+                    "value": "global",
                     "type": "string",
                     "secure": false,
                     "description": "Testing value"
