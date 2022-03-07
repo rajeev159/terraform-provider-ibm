@@ -23,7 +23,7 @@
             ],
             "variablestore": [
                 {
-                    "name": "region",
+                    "name": "location",
                     "value": "us-south",
                     "type": "string",
                     "secure": true,
