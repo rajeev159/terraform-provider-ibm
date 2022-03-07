@@ -3,6 +3,7 @@
     "type": [
         "terraform_v0.12"
     ],
+    "location": "us-south",
     "description": "Creating to test poc",
     "tags": [],
     "template_repo": {
