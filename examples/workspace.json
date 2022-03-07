@@ -11,7 +11,7 @@
     "template_data": [
         {
             "folder": ".",
-            "type": "0.12",
+            "type": "terraform_v0.12",
             "env_values": [
                 {
                     "VAR1": "val1"
