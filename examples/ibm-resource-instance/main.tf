@@ -11,6 +11,6 @@ resource "ibm_resource_instance" "cos_instance_poc" {
 }
 
 data "ibm_resource_instance" "test" {
-  name    = ibm_resource_instance.cos_instance.name
+  name    = ibm_resource_instance.cos_instance_poc.name
   service = var.service_type
 }
