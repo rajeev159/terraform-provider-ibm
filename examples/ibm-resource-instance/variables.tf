@@ -17,3 +17,7 @@ variable "location" {
 variable "resource_group" {
   default = "Default"
 }
+
+variable "cos_instance" {
+  default = "workspace_cos_instance"
+}

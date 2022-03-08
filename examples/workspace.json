@@ -48,6 +48,13 @@
                     "type": "string",
                     "secure": false,
                     "description": "Testing value"
+                },
+                {
+                    "name": "cos_instance",
+                    "value": "workspace_cos_instance",
+                    "type": "string",
+                    "secure": false,
+                    "description": "Testing value"
                 }
             ]
         }
