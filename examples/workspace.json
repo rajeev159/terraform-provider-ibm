@@ -19,42 +19,42 @@
                     "value": "myservice-poc-11",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "Service name"
                 },
                 {
                     "name": "service_type",
                     "value": "cloud-object-storage",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "Service type"
                 },
                 {
                     "name": "plan_type",
                     "value": "standard",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "Plan type"
                 },
                 {
                     "name": "location",
                     "value": "global",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "Location"
                 },
                 {
                     "name": "resource_group",
                     "value": "Default",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "Resource group"
                 },
                 {
                     "name": "cos_instance",
-                    "value": "workspace_cos_instance",
+                    "value": "workspace-cos-instance",
                     "type": "string",
                     "secure": false,
-                    "description": "Testing value"
+                    "description": "COS instance name"
                 }
             ]
         }

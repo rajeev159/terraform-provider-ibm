@@ -19,5 +19,5 @@ variable "resource_group" {
 }
 
 variable "cos_instance" {
-  default = "workspace_cos_instance"
+  default = "workspace-cos-instance"
 }
