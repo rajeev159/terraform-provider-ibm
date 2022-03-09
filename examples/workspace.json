@@ -51,7 +51,7 @@
                 },
                 {
                     "name": "cos_instance",
-                    "value": "workspace-cos-instance",
+                    "value": "workspace-cos-instance-1",
                     "type": "string",
                     "secure": false,
                     "description": "COS instance name"
