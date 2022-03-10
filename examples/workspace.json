@@ -51,10 +51,38 @@
                 },
                 {
                     "name": "cos_instance",
-                    "value": "workspace-cos-instance-1",
+                    "value": "workspace-cos-instance-2",
                     "type": "string",
                     "secure": false,
                     "description": "COS instance name"
+                },
+                {
+                    "name": "bucket_name",
+                    "value": "test-poc-bucket-21",
+                    "type": "string",
+                    "secure": false,
+                    "description": "COS bucket name"
+                },
+                {
+                    "name": "storage",
+                    "value": "standard",
+                    "type": "string",
+                    "secure": false,
+                    "description": "Storage type"
+                },
+                {
+                    "name": "quota",
+                    "value": "1",
+                    "type": "string",
+                    "secure": false,
+                    "description": "Quota"
+                },
+                {
+                    "name": "regional_loc",
+                    "value": "us-south",
+                    "type": "string",
+                    "secure": false,
+                    "description": "Bucket region"
                 }
             ]
         }

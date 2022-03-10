@@ -8,9 +8,19 @@ resource "ibm_resource_instance" "resource_cos_instance" {
   service           = var.service_type
   plan              = var.plan_type
   location          = var.location
+  tags              = ["datalake", "datalakeinstance"]
 }
 
 data "ibm_resource_instance" "test" {
   name    = ibm_resource_instance.resource_cos_instance.name
   service = var.service_type
 }
+
+resource "ibm_cos_bucket" "cos_bucket" {
+  bucket_name           = var.bucket_name
+  resource_instance_id  = ibm_resource_instance.resource_cos_instance.id
+  region_location       = var.regional_loc
+  storage_class         = var.storage
+  hard_quota            = var.quota
+}
+
